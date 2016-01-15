@@ -95,5 +95,12 @@ public class AnagramResolver {
         return resultado;
     }
 
+    private String ordenarPalavra(String palavraTest){
+        char[] palavraDaVezOrdenada = palavraTest.toLowerCase().toCharArray();
+        Arrays.sort(palavraDaVezOrdenada);
+        return new String(palavraDaVezOrdenada);
+    }
+
     */
+
 }
