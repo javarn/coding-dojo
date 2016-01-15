@@ -6,18 +6,3 @@ selects the correct sublist.
 Given "listen" and
 a list of candidates like "enlists" "google" "inlets" "banana"
 the program should return a list containing "inlets".
-
-
-----
-
-
-----
-
-
-Dados de testes para anagram:
-
-Para "Orchestra" e entrada "cashregister", "Carthorse", "radishes"; resultado é Carthorse
-
-
-
-resultado é "gallery", "largely", "regally"
