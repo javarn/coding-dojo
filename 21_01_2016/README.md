@@ -38,7 +38,6 @@ And to total:
     - resolução rápida do problema (Trazer problemas mais complexos)
     - Nao houve conversa
     - Aprendizado de novas funcionalidades do junit
-    - possivel descoberta do bug Java (contains com String vazia retorna true dentro do stream)
     - Eclipse facilitou o uso.
     - Sala do IMD
     
