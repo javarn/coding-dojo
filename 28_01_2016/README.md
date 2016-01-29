@@ -48,14 +48,20 @@ helper.pageIndex(-10); //should == -1
 
 ### Participantes
 
-Bruno
-Anelisa
-Flavio
-Jefferson
-Patricia
-Bráulio
-Giu
-Higor
-João
-Lucas
-Raul
+- Bruno
+- Anelisa
+- Flavio
+- Jefferson
+- Patricia
+- Bráulio
+- Giu
+- Higor
+- João
+- Lucas
+- Raul
+
+### Pós DOJO 
+
+Outras soluções individuais realizadas pós dojo.
+
+- Lucas https://github.com/luksrn/my-exercism.io/tree/master/java/pagination-helper
