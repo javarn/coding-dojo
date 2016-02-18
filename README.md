@@ -7,4 +7,5 @@
 3. [21/01/2016 - Scrabble](https://github.com/javarn/coding-dojo/tree/master/21_01_2016)
 4. [28/01/2016 - Pagination Helper](https://github.com/javarn/coding-dojo/tree/master/28_01_2016)
 5. [04/02/2016 - Matriz Espiral](https://github.com/javarn/coding-dojo/tree/master/04_02_2016)
+6. [18/02/2016 - Line Counter](https://github.com/javarn/coding-dojo/tree/master/18_02_2016)
 
