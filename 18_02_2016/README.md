@@ -56,15 +56,15 @@ Lembre-se que comentários em Java podem ser ou "//" até o final de uma linha, 
 
 ### Participantes
 
-Bráulio
-Giu
-Higor
-Lucas
-Raul
-Wilson
+- Bráulio
+- Giu
+- Higor
+- Lucas
+- Raul
+- Wilson
 
 ### Outras Soluções
-
+Lucas [Codigo](https://github.com/luksrn/my-exercism.io/blob/master/java/javaCountLines/src/main/java/dojo/LineCounter.java) - [Teste](https://github.com/luksrn/my-exercism.io/blob/master/java/javaCountLines/src/test/java/dojo/LineCounterTest.java)
 
 ### Links
 https://github.com/flyway/flyway/blob/master/flyway-core/src/main/java/org/flywaydb/core/internal/dbsupport/SqlStatementBuilder.java#L26
