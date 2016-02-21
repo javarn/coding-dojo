@@ -2,37 +2,34 @@ package dojo;
 
 
 public class LineCounter {
- 
-	/**
-	 * Remover comentários /* e *\/
-	 */
-	static String regex = "/\\*(.|\\n)*\\*/";
 	
-	public Integer count(String conteudoArquivo) {
-		int numeroLinhas = 0;
-		String conteudoArquivoSemComentarios = removeComentariosDeVariasLinhas(conteudoArquivo);
+	private String text = null;
+	
+	public int count() {
+		removerComentarioMultiplasLinhas();
+		removerComentarioUmaLinha();
+		removerEspacoEmBranco();
 		
-		String[] linhas = conteudoArquivoSemComentarios.split("\\n");
-		for (String linha : linhas) {
-			String linhaTrim = linha.trim();
-			if(linhaTrim.isEmpty()){
-				continue;
-			}
-			if (linha.trim().startsWith("//")){
-				continue;
-			}
-			numeroLinhas++;
-				
+		if(text.isEmpty()){
+			return 0;
 		}
-		return numeroLinhas;
-	}
-
-	private String removeComentariosDeVariasLinhas(String conteudoArquivo) {
-		return conteudoArquivo.replaceAll(regex, "");
+		
+		return text.split("\n").length;
 	}
 	
+	public void setText(String text) {
+		this.text = text;
+	}
 	
+	private void removerComentarioUmaLinha(){
+		text = text.replaceAll("(\\/\\/.*)", "");
+	}
 	
- 
-
+	private void removerComentarioMultiplasLinhas(){
+		text = text.replaceAll("\\/\\*[\\s\\S]*?\\*\\/", "");
+	}
+	
+	private void removerEspacoEmBranco(){
+		text = text.replaceAll("(?m)^\\s*", "").trim();
+	}
 }
