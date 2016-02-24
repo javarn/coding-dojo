@@ -65,6 +65,7 @@ Lembre-se que comentários em Java podem ser ou "//" até o final de uma linha, 
 
 ### Outras Soluções
 Lucas [Codigo](https://github.com/luksrn/my-exercism.io/blob/master/java/javaCountLines/src/main/java/dojo/LineCounter.java) - [Teste](https://github.com/luksrn/my-exercism.io/blob/master/java/javaCountLines/src/test/java/dojo/LineCounterTest.java)
+Higor Lucas [Codigo](https://github.com/higorae/coding-dojo/blob/master/18_02_2016/src/main/java/dojo/LineCounter.java) - [Teste](https://github.com/higorae/coding-dojo/blob/master/18_02_2016/src/test/java/dojo/LineCounterTest.java)
 
 ### Links
 https://github.com/flyway/flyway/blob/master/flyway-core/src/main/java/org/flywaydb/core/internal/dbsupport/SqlStatementBuilder.java#L26
